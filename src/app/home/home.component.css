@@ -1,0 +1,74 @@
+h1{
+    text-align: center;
+    color: #324851;
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+/* .design{
+    font-weight: lighter;
+    font-style: normal;
+} */
+
+.quote{
+    text-align: center;
+    color: #324851;
+    font-size: 16px;
+    font-family: cursive;
+}
+
+.Question{
+    text-align: center;
+    color: #324851;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+.card{
+    border-radius: 0;
+    border: none;
+}
+
+.card-title{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: #662e1c;
+    border: 1px solid #ffccac;
+    border-radius: 25px;
+    background-image: linear-gradient(to right top, #ffccac, #ffd1a6, #ffd6a1, #ffdc9c, #ffe298, #ffe394, #ffe490, #fee58c, #fee186, #fddd80, #fdd87b, #fdd475);
+}
+
+.card-text{
+    text-align: justify;
+    font-family: cursive;
+    font-size: 17px;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+
+}
+
+#photo{
+    width: 500px;
+}
+
+/* .col-md-6{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.col-md-6:hover img{
+    transform: scale(0.7);
+    border-radius: 50%;
+} */
+
+.btn{
+    font-family: cursive;
+    font-size: 16px;
+}

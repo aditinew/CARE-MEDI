@@ -1,0 +1,24 @@
+/* ////////////////////////////////////subscription css page///////////////////////////////////////// */
+
+.card{
+    border: none;
+    border-radius: 0;
+}
+
+.card-title{
+    text-align: center;
+    font-family: cursive;
+    font-size: 32px;
+}
+
+.form-label{
+    font-family: cursive;
+}
+
+.form-select{
+    font-family: cursive;
+}
+
+.btn{
+    font-family: cursive;
+}

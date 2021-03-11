@@ -1,0 +1,33 @@
+.card{
+    border: 0;
+    border-radius: 0;
+}
+
+.card-title{
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+    color: #324851;
+    background-color: #c1e1dc;
+    border-radius: 23px;
+    border: 1px solid #0a7768;
+}
+
+/* .btn:hover{
+    color: #662e1c;
+    font-size: 27px;
+    border-radius: 1px solid #662e1c;
+    background-image: linear-gradient(to right top, #ffccac, #ffd1a6, #ffd6a1, #ffdc9c, #ffe298, #ffe394, #ffe490, #fee58c, #fee186, #fddd80, #fdd87b, #fdd475);
+} */
+
+.btn{
+    border-radius: 0;
+    border: 0;
+    font-family: cursive;
+    font-size: 26px;
+    color: #662e1c;
+    font-size: 27px;
+    border-radius: 1px solid #662e1c;
+    background-image: linear-gradient(to right top, #ffccac, #ffd1a6, #ffd6a1, #ffdc9c, #ffe298, #ffe394, #ffe490, #fee58c, #fee186, #fddd80, #fdd87b, #fdd475);
+}
+

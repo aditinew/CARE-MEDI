@@ -1,0 +1,23 @@
+
+.card{
+    border: none;
+    border-radius: 0;
+}
+
+#head{
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 40px;
+    text-align: center;
+    color: #662e1c;
+    border: 1px solid #ffccac;
+    border-radius: 25px;
+    background-image: linear-gradient(to right top, #ffccac, #ffd1a6, #ffd6a1, #ffdc9c, #ffe298, #ffe394, #ffe490, #fee58c, #fee186, #fddd80, #fdd87b, #fdd475);
+}
+
+.card-title{
+    text-align: center;
+    font-family: cursive;
+    font-size: 15px;
+    text-decoration: underline;
+}

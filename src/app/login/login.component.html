@@ -1,0 +1,68 @@
+
+
+<!-- /////////////////////////////////////////////login page////////////////////////////////////////// -->
+
+<br>
+
+<div class="card mx-auto" style="width: 30rem;">
+  
+  <div class="card-body">
+    <h5 class="card-title">Sign in</h5>
+    <p class="card-text">to continue to our site...</p>
+    
+    
+    <form class="row g-3">
+      
+      <div class="col-md-12">
+        
+        <div class="input-group has-validation">
+          
+          <input type="text" class="form-control " id="validationServerUsername" [(ngModel)]="Username" name="Username" placeholder="Enter Your Username" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+          <div id="validationServerUsernameFeedback" class="invalid-feedback">
+            Please provide a valid username.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        
+        <div class="input-group has-validation">
+          
+          <input type="text" class="form-control " id="validationServerUsername" [(ngModel)]="Email" name="Email" placeholder="Enter Your Email_ID" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+          <div id="validationServerUsernameFeedback" class="invalid-feedback">
+            Please provide a valid email.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+       
+        <div class="input-group has-validation">
+          
+          <input type="text" class="form-control " id="validationServerUsername" [(ngModel)]="Password" name="Password" placeholder="Enter Your Password" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+          <div id="validationServerUsernameFeedback" class="invalid-feedback">
+            Please provide a valid password.
+          </div>
+        </div>
+      </div>
+      
+     
+      <div class="col-12 offset-5">
+        <button class="btn btn-primary" type="submit" (click)="Login()">Submit</button>
+      </div>
+    </form>
+
+    <br>
+
+    <h6 class="signup">New User's can Register Here:
+      <button type="button" class="btn" ><a [routerLink]="['/register']">SignUp</a></button>
+    </h6>
+
+
+  </div>
+</div>
+
+
+
+<br>
+          
+
+<!-- [routerLink]="['/tryfree']"           -->

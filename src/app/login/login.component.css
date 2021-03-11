@@ -1,0 +1,32 @@
+
+/* ////////////////////////////////////////login page css/////////////////////////////////////////////// */
+
+.card{
+    border: 0;
+    border-radius: 0;
+}
+
+.card-title{
+    font-family: cursive;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.card-text{
+    text-align: center;
+    font-family: cursive;
+}
+
+.col-md-12{
+    font-family: cursive;
+}
+
+.btn{
+    font-family: cursive;
+}
+
+.signup{
+    font-family: cursive;
+    font-size: 16px;
+}

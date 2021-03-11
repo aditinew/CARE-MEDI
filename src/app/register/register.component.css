@@ -1,0 +1,30 @@
+
+/* //////////////////////////////////////registration page css////////////////////////////////////////// */
+
+.card{
+    border: 0;
+    border-radius: 0;
+}
+
+.card-title{
+    text-align: center;
+    font-family: cursive;
+    font-size: 24px;
+}
+
+.card-text{
+    text-align: center;
+    font-family: cursive;
+}
+
+.col-md-12{
+    font-family: cursive;
+}
+
+.btn{
+    font-family: cursive;
+}
+
+.signup{
+    font-family: cursive;
+}

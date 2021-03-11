@@ -1,0 +1,96 @@
+.card{
+    border: none;
+    border-radius: 0;
+}
+
+#regular{
+    font-size: 38px;
+    font-weight: 200;
+    font-family: cursive;
+    border: 1px solid #ffccac;
+    border-radius: 25px;
+    background-image: linear-gradient(to right top, #ffccac, #ffd1a6, #ffd6a1, #ffdc9c, #ffe298, #ffe394, #ffe490, #fee58c, #fee186, #fddd80, #fdd87b, #fdd475);
+    text-align: center;
+    color: #662e1c;
+}
+
+#yes{
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    color: #000000;
+}
+
+#no{
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    color: #000000;
+}
+
+#photo{
+    height: 400px;
+    width: 80%;
+}
+
+#head{
+    text-align: center;
+    font-family: cursive;
+    font-size: 36px;
+    border: 1px solid #70cec0;
+    border-radius: 25px;
+    background-color: #c1e1dc;
+}
+
+#first{
+    text-align: center;
+    font-family: cursive;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.card-text{
+    text-align: center;
+    font-family: cursive;
+    font-size: 24px;
+}
+
+#team{
+    text-align: center;
+    font-family: cursive;
+    font-size: 42px;
+    color: #662e1c;
+    border: 1px solid #ffccac;
+    border-radius: 25px;
+    background-image: linear-gradient(to right top, #ffccac, #ffd1a6, #ffd6a1, #ffdc9c, #ffe298, #ffe394, #ffe490, #fee58c, #fee186, #fddd80, #fdd87b, #fdd475);
+}
+
+#elements{
+    border: 1px solid rgb(247, 203, 10);
+}
+
+#icon{
+    text-align: center;
+    font-size: 50px;
+}
+
+#write{
+    font-size: 16px;
+    color: rgb(99, 99, 99);
+}
+
+#members{
+    border: none;
+    border-radius: 0;
+}
+
+#designation{
+    text-align: center;
+    font-family: cursive;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+#name{
+    font-size: 18px;
+}

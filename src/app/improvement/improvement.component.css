@@ -1,0 +1,86 @@
+
+/* ///////////////////////////////self-improvement css page///////////////////////////////////////// */
+
+.card{
+    border: none;
+    border-radius: 0;
+}
+
+#titles{
+    text-align: center;
+    font-family: cursive;
+    color: #662e1c;
+    font-size: 40px;
+    border: 1px solid #ffccac;
+    background-image: linear-gradient(to right bottom, #ffccac, #ffd1a6, #ffd6a1, #ffdc9c, #ffe298, #f3e79b, #e8eba1, #dcefa8, #c9efba, #bdecca, #bbe7d6, #c1e1dc);
+    border-radius: 25px;
+}
+
+#text{
+    text-align: center;
+    font-family: cursive;
+    font-size: 17px;
+    color: rgb(61, 59, 59);
+}
+
+#up{
+    font-size: 16px;
+    font-family: cursive;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.btn{
+    width: 25%;
+    font-size: 34px;
+    font-family: cursive;
+    border-radius: 20px;
+}
+
+#discount{
+    text-align: center;
+    font-family: cursive;
+    font-size: 42px;
+    color: #662e1c;
+    border: 1px solid #ffccac;
+    border-radius: 25px;
+    background-image: linear-gradient(to right top, #ffccac, #ffd1a6, #ffd6a1, #ffdc9c, #ffe298, #ffe394, #ffe490, #fee58c, #fee186, #fddd80, #fdd87b, #fdd475);
+}
+
+#price{
+    border: 1px solid rgb(247, 203, 10);
+}
+
+#icon{
+    font-size: 42px;
+    text-align: center;
+}
+
+#plan{
+    font-size: 24px;
+    font-family: cursive;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#one{
+    font-size: 14px;
+    font-family: cursive;
+    text-align: center;
+}
+
+#lines{
+    font-family: cursive;
+    font-family: 16px;
+    font-weight: normal;
+}
+
+#money{
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#green{
+    color: rgb(40, 165, 8);
+}

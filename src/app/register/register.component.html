@@ -1,0 +1,96 @@
+
+
+<!-- ////////////////////////////////////////////registration page/////////////////////////////////////// -->
+
+<br>
+
+<div class="card mx-auto" style="width: 33rem;">
+  
+  <div class="card-body">
+    <h5 class="card-title">Sign up Yourself</h5>
+    <p class="card-text">to continue to our site...</p>
+   
+    
+    <form class="row g-3">
+      <div class="col-md-12">
+        
+        <input type="text" class="form-control " id="validationServer01" [(ngModel)]="Firstname" name="Firstname" placeholder="Enter Your First Name" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-12">
+        
+        <input type="text" class="form-control " id="validationServer02" [(ngModel)]="Lastname" name="Lastname" placeholder="Enter Your Last Name" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-12">
+        
+        <div class="input-group has-validation">
+          
+          <input type="text" class="form-control " id="validationServerUsername" [(ngModel)]="Username" name="Username" placeholder="Enter Your Username" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+          <div id="validationServerUsernameFeedback" class="invalid-feedback">
+            Please choose a username.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+       
+        <div class="input-group has-validation">
+          
+          <input type="text" class="form-control " id="validationServerUsername" [(ngModel)]="Email" name="Email" placeholder="Enter Your Email_ID" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+          <div id="validationServerUsernameFeedback" class="invalid-feedback">
+            Please choose a valid email.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        
+        <input type="text" class="form-control " id="validationServer03" [(ngModel)]="Phone" name="Phone" placeholder="Enter Your Phone Number" aria-describedby="validationServer03Feedback" required>
+        <div id="validationServer03Feedback" class="invalid-feedback">
+          Please provide a valid phone number.
+        </div>
+      </div>
+      <div class="col-md-12">
+        
+        <div class="input-group has-validation">
+          
+          <input type="text" class="form-control " id="validationServerUsername" [(ngModel)]="Password" placeholder="Enter Your Password" name="Password" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+          <div id="validationServerUsernameFeedback" class="invalid-feedback">
+            Please choose a correct password.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        
+        <div class="input-group has-validation">
+          
+          <input type="text" class="form-control " id="validationServerUsername" [(ngModel)]="Reconfirmpassword" name="Reconfirmpassword" placeholder="Re-enter Your Password" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+          <div id="validationServerUsernameFeedback" class="invalid-feedback">
+            Please choose a re-confirm password.
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="col-12 offset-5">
+        <button class="btn btn-primary" type="submit" (click)="Signup()">Submit</button>
+      </div>
+    </form>
+
+<br>
+
+    <h6 class="signup">Already a User:
+      <button type="button" class="btn" ><a [routerLink]="['/login']">Login</a></button>
+    </h6>
+
+  </div>
+</div>
+
+          
+<br>
+            
+
+<!-- [routerLink]="['/login']" -->

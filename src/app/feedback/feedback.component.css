@@ -1,0 +1,35 @@
+
+/* ////////////////////////////////feedback css page/////////////////////////////////////////////////// */
+
+.card{
+    border-radius: 0;
+    border: none;
+}
+
+.card-title{
+    text-align: center;
+    font-family: cursive;
+    font-size: 32px;
+}
+
+.card-text{
+    font-family: cursive;
+    text-align: center;
+    font-size: 14px;
+}
+
+.col-md-12{
+    font-family: cursive;
+    font-size: 24px;
+}
+
+.btn{
+    font-family: cursive;
+}
+
+/* #full{
+    font-size: 28px;
+    font-family: cursive;
+    border-radius: 24px;
+    font-weight: bold;
+} */

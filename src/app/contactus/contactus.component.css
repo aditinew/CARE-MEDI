@@ -1,0 +1,28 @@
+
+/* //////////////////////////////////////contact us css page///////////////////////////////////////////// */
+
+
+.card{
+    border-radius: 0;
+    border: none;
+}
+
+.card-title{
+    text-align: center;
+    font-family: cursive;
+    font-size: 32px;
+}
+
+.card-text{
+    font-size: 14px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.col-md-12{
+    font-family: cursive;
+}
+
+.btn{
+    font-family: cursive;
+}

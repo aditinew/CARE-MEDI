@@ -1,0 +1,90 @@
+
+<!-- //////////////////////////////////////feedback page//////////////////////////////////////////////// -->
+
+<br>
+<br>
+
+<div class="card mb-3" style="max-width: 100%;">
+    <div class="row g-0">
+      <div class="col-md-6">
+        <img src="../../assets/images/3ae.jpg" height="100%" width="100%" alt="...">
+      </div>
+      <div class="col-md-6">
+        <div class="card-body">
+          <br>
+          <br>
+          <h5 class="card-title">Suggestions</h5>
+          <p class="card-text">We are here to take your suggestions.</p>
+          <br>
+          
+          
+          <form class="row g-3">
+            <div class="col-md-12">
+              
+              <input type="text" class="form-control " id="validationServer01" [(ngModel)]="Firstname" name="Firstname" placeholder="Enter Your First Name" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-12">
+              
+              <input type="text" class="form-control " id="validationServer02" [(ngModel)]="Lastname" name="Lastname" placeholder="Enter Your Last Name" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-12">
+              
+              <div class="input-group has-validation">
+                
+                <input type="text" class="form-control " id="validationServerUsername" [(ngModel)]="Username" name="Username" placeholder="Enter Your User Name" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                  Please choose a username.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              
+              <input type="text" class="form-control " id="validationServer03" [(ngModel)]="Email" name="Email" placeholder="Enter Your Email_ID" aria-describedby="validationServer03Feedback" required>
+              <div id="validationServer03Feedback" class="invalid-feedback">
+                Please provide a valid email.
+              </div>
+            </div>
+            
+            <div class="col-md-12">
+              
+              <input type="text" class="form-control " id="validationServer04" [(ngModel)]="Phone" name="Phone" placeholder="Enter Your Phone Number" aria-describedby="validationServer04Feedback" required>
+              <div id="validationServer04Feedback" class="invalid-feedback">
+                Please provide a valid phone number.
+              </div>
+            </div>
+            
+            <div class="col-md-12">
+              
+              <textarea class="form-control " id="validationTextarea" [(ngModel)]="Message" name="Message" placeholder="Enter Your Message" required></textarea>
+              <div class="invalid-feedback">
+                Please enter a message in the textarea.
+              </div>
+            </div>
+
+            
+            
+            <div class="col-12 offset-5">
+              <br>
+            
+              <button class="btn btn-primary" type="submit" (click)="addData()" [routerLink]="['/feedback']">Send Message</button>
+            </div>
+          </form>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- <br>
+
+  <button type="button" class="btn btn-outline-dark offset-5" id="full" [routerLink]="['/contactus']">Contact Us Here</button> -->
+
+<br>
+<br>
